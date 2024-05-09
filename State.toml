@@ -84,6 +84,13 @@ effective_version = "2.0.3.0"
 [channels.stable.plugins.DeviceChangeFix.changelogs."2.0.3.0"]
 time_released = 2024-05-09T20:09:32.941
 changelog = "Update to API 9"
+[channels.stable.plugins.Distance]
+built_commit = "1bfde7f9b70912e45a10e88ab2a8cbd81934bb01"
+time_built = 2024-05-09T20:11:50.064
+effective_version = "1.1.1.1"
+[channels.stable.plugins.Distance.changelogs."1.1.1.1"]
+time_released = 2024-05-09T20:11:50.064
+changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
