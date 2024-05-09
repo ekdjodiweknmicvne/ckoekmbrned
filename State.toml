@@ -46,6 +46,13 @@ built_commit = "05874fb1db01d9b7040e13fbfad2a63dd9856aef"
 time_built = 2024-05-09T19:51:10.470
 effective_version = "4.0.6.1"
 [channels.stable.plugins.DailyDuty.changelogs]
+[channels.stable.plugins."Dalamud.DiscordBridge"]
+built_commit = "add2358788f609ae9d43facb40c59c51f5fff44b"
+time_built = 2024-05-09T19:53:36.138
+effective_version = "1.4.4.0"
+[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.4.4.0"]
+time_released = 2024-05-09T19:53:36.138
+changelog = "Updated for API 9.\n"
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
