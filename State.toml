@@ -36,6 +36,11 @@ built_commit = "38c2ffe4e0457e60fb3ff376ad3af2234091b9f8"
 time_built = 2024-05-09T18:47:55.308
 effective_version = "1.23.5.0"
 [channels.stable.plugins.ChatTwo.changelogs]
+[channels.stable.plugins.ChillFrames]
+built_commit = "bb47c1085f44a4039ea2fd17d41138c92c9ea2ed"
+time_built = 2024-05-09T19:40:05.061
+effective_version = "2.1.1.3"
+[channels.stable.plugins.ChillFrames.changelogs]
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
