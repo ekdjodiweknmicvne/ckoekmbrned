@@ -65,6 +65,11 @@ effective_version = "2.0.3.0"
 [channels.stable.plugins."Dalamud.RichPresence".changelogs."2.0.3.0"]
 time_released = 2024-05-09T20:02:40.166
 changelog = "API 9 support. (Thank you NPittinger)\n\nNew features:\n- Turn off rich presence when AFK (thank you sersorrel)\n"
+[channels.stable.plugins.DamageInfoPlugin]
+built_commit = "518b8bc7516666dc621c107e3193ababbf7f5ca7"
+time_built = 2024-05-09T20:05:00.289
+effective_version = "2.3.0.3"
+[channels.stable.plugins.DamageInfoPlugin.changelogs]
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
