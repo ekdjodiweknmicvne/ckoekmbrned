@@ -10,6 +10,13 @@ built_commit = "4ddf9fbf2081c2a412fb93b4a27bc51ab2ee72bb"
 time_built = 2024-05-09T17:48:57.550
 effective_version = "1.4.0.0"
 [channels.stable.plugins.Accountant.changelogs]
+[channels.stable.plugins.BigPlayerDebuffs]
+built_commit = "a541a224d14f921a672229818a1aab4fbd563dc4"
+time_built = 2024-05-09T17:57:49.877
+effective_version = "1.1.0.9"
+[channels.stable.plugins.BigPlayerDebuffs.changelogs."1.1.0.9"]
+time_released = 2024-05-09T17:57:49.877
+changelog = "v1.1.0.9 - 6.5 Dalamud Update"
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
