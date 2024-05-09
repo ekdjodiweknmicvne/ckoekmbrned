@@ -70,6 +70,13 @@ built_commit = "518b8bc7516666dc621c107e3193ababbf7f5ca7"
 time_built = 2024-05-09T20:05:00.289
 effective_version = "2.3.0.3"
 [channels.stable.plugins.DamageInfoPlugin.changelogs]
+[channels.stable.plugins.DeathRecap]
+built_commit = "e5274e0ac645a8c0002736666c5c53fd5aa81932"
+time_built = 2024-05-09T20:06:22.654
+effective_version = "1.11.1.0"
+[channels.stable.plugins.DeathRecap.changelogs."1.11.1.0"]
+time_released = 2024-05-09T20:06:22.654
+changelog = "- Fix Well Fed & Medicated icon in death recap\n- Show healing from Kardia, Nascent Glint and similar abilties (by Cformaintain)\n"
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
