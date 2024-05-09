@@ -17,6 +17,25 @@ effective_version = "1.1.0.9"
 [channels.stable.plugins.BigPlayerDebuffs.changelogs."1.1.0.9"]
 time_released = 2024-05-09T17:57:49.877
 changelog = "v1.1.0.9 - 6.5 Dalamud Update"
+[channels.stable.plugins.ChatBubbles]
+built_commit = "f057c619f9561f325778ba024dab03a9b241ec83"
+time_built = 2024-05-09T18:46:51.173
+effective_version = "2.1.5.0"
+[channels.stable.plugins.ChatBubbles.changelogs."2.1.5.0"]
+time_released = 2024-05-09T18:46:51.173
+changelog = "### Updated for 6.5 & API9 compatibility\nHaplo064 did all the work there, thanks Haplo "
+[channels.stable.plugins.Browsingway]
+built_commit = "45b2380ff73264ac5aa655448db95cb528e45858"
+time_built = 2024-05-09T18:47:40.231
+effective_version = "1.6.0"
+[channels.stable.plugins.Browsingway.changelogs."1.6.0"]
+time_released = 2024-05-09T18:47:40.231
+changelog = "- Chromium 122.0.6261.112\n- Option to hide overlays out of combat (by electr0sheep)\n- .net 8 support\n- IPC refactoring\n"
+[channels.stable.plugins.ChatTwo]
+built_commit = "38c2ffe4e0457e60fb3ff376ad3af2234091b9f8"
+time_built = 2024-05-09T18:47:55.308
+effective_version = "1.23.5.0"
+[channels.stable.plugins.ChatTwo.changelogs]
 [channels.testing-live.plugins.Umbra]
 built_commit = "f583e15145e7496be6aba318107077df775092d1"
 time_built = 2024-05-09T11:43:57.892
